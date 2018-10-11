@@ -1,7 +1,7 @@
 Python Studio Web
 
 
-Python.org (http://python.org/)  
+Python.org 
  https://www.python.org/
 
 Python Documentation 
