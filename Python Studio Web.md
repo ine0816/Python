@@ -1,4 +1,4 @@
-Python studio web
+Python Studio Web
 
 
 Python.org (http://python.org/)  
