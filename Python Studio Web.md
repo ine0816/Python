@@ -16,6 +16,9 @@ https://github.com/
 Raspberry Pi
 https://www.raspberrypi.org/
 
+python3 gpiozero 
+https://gpiozero.readthedocs.io/en/stable/index.html
+
 Raspberry Pi Projects
 https://projects.raspberrypi.org/en
 
