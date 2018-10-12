@@ -30,3 +30,6 @@ https://trinket.io/embed/python/33e5c3b81b#.W7rGpC_tbOQ
 
 Anaconda
 https://www.anaconda.com/
+
+Color picker tool
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
