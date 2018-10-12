@@ -22,6 +22,9 @@ https://gpiozero.readthedocs.io/en/stable/index.html
 Raspberry Pi Projects
 https://projects.raspberrypi.org/en
 
+Code Club - Courses
+https://codeclubprojects.org/en-GB/
+
 Sense HAT
 https://pythonhosted.org/sense-hat/
 
