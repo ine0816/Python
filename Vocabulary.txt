@@ -12,7 +12,7 @@ Lib library
 form <library> import *
 The Python Standard Library: turtle time random 
 Date process: Numpy / Pandas / Matplotlib
-variable  Numbers: int() intege float
+variable  Numbers: int() integer float
           Strings: str() character
           Lists:         example(e.g.):squares = [1, 4, 9, 16, 25]
 
@@ -27,8 +27,8 @@ elif/else :
 loop    break    continue
 
 for x in range():
-          <processing>
+      <processing>
           
 while <analysis>:
-          <processing>
+      <processing>
 
