@@ -17,11 +17,12 @@ variable  Numbers: int() intege float
 define function
 
 if <analysis>:
-elif/else <analysis>
+elif/else <process>
 
 loop    break    continue
 
 for x in range():
-
+          <process>
 while <analysis>:
+          <process>
 
