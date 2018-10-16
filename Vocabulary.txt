@@ -10,19 +10,25 @@ syntax error
 input()   print()
 Lib library
 form <library> import *
-The Python Standard Library: turtle time random
+The Python Standard Library: turtle time random 
+Date process: Numpy / Pandas / Matplotlib
 variable  Numbers: int() intege float
           Strings: str() character
           Lists:         example(e.g.):squares = [1, 4, 9, 16, 25]
-define function
 
-if <analysis>:
-elif/else <process>
+define function
+def function1():
+    <processing>
+
+if <analysis> :
+   <processing>
+elif/else : 
 
 loop    break    continue
 
 for x in range():
-          <process>
+          <processing>
+          
 while <analysis>:
-          <process>
+          <processing>
 
