@@ -6,7 +6,7 @@ project   Development environment(software/hardware)
 Language Reference    Tutorials
 
 software engineer
-syntax error
+syntax error    run    debug
 input()   print()
 Lib library
 form <library> import *
@@ -20,11 +20,11 @@ define function
 def function1():
     <processing>
 
+loop    break    continue
+
 if <analysis> :
    <processing>
 elif/else : 
-
-loop    break    continue
 
 for x in range():
       <processing>
