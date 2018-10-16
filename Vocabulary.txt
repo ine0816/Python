@@ -1,0 +1,27 @@
+Code Vocabulary:
+
+AI: Artificial Intelligence
+Mathematical algorithm
+project   Development environment(software/hardware)
+Language Reference    Tutorials
+
+software engineer
+syntax error
+input()   print()
+Lib library
+form <library> import *
+The Python Standard Library: turtle time random
+variable  Numbers: int() intege float
+          Strings: str() character
+          Lists:         example(e.g.):squares = [1, 4, 9, 16, 25]
+define function
+
+if <analysis>:
+elif/else <analysis>
+
+loop    break    continue
+
+for x in range():
+
+while <analysis>:
+
