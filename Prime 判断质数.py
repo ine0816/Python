@@ -28,7 +28,7 @@ else:
             break
         #若n有除1和n本身以外的因数，则n必为合数
         else:
-            i += 1
+            i =i + 1
         if i == n:
             print(n,' is a prime number')
             break
