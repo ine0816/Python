@@ -5,3 +5,26 @@
 专门刊载这方面的研究成果。
 
     其实就是从第三项开始，每项的值等于前两项的和。
+    
+    
+Python3实现斐波拉契数列打印：
+
+iterations = int(input("Number of iterations(斐波拉契数列): "))
+cont = 1
+result = ""
+ 
+if iterations > 0:
+    fibonacci1 = 0
+    fibonacci2 = 1
+ 
+    result = result + "" + format(fibonacci1)
+    result = result + ", " + format(fibonacci2)
+ 
+    while cont < iterations:
+        temp = fibonacci2
+        fibonacci2 = fibonacci1 + fibonacci2
+        fibonacci1 = temp
+        result = result + ", " + format(fibonacci2)
+        cont = cont + 1
+
+print("Fibonacci: " + result)
