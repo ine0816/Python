@@ -10,6 +10,19 @@
 Python3实现斐波拉契数列打印：
 
 方法一：
+def fib(n): # 返回到 n 的斐波那契数列
+    result = []
+    a, b = 0, 1
+    while b < n:
+        result.append(b)
+        a, b = b, a+b
+    return result
+
+x = int(input("Input number a Fibonacci sequence last number:"))
+print(fib(x))
+print(sum(fib(x)))
+
+方法二：
 iterations = int(input("Number of iterations(斐波拉契数列): "))
 cont = 1
 result = ""
@@ -30,7 +43,7 @@ if iterations > 0:
 
 print("Fibonacci: " + result)
 
-方法二：
+方法三：
 import sys
  
 def fibonacci(n): # 生成器函数 - 斐波那契
