@@ -1,7 +1,7 @@
-    斐波那契数列（Fibonacci sequence），又称黄金分割数列、因数学家列昂纳多·斐波那契（Leonardoda Fibonacci）
+    斐波那契数列（Fibonacci series），又称黄金分割数列、因数学家列昂纳多·斐波那契（Leonardoda Fibonacci）
 以兔子繁殖为例子而引入，故又称为“兔子数列”，指的是这样一个数列：1、1、2、3、5、8、13、21、34、……在数学上，
 斐波纳契数列以如下被以递归的方法定义：F(0)=0，F(1)=1, F(n)=F(n-1)+F(n-2)（n>=2，n∈N*）在现代物理、准晶体结构、
-化学等领域，斐波纳契数列都有直接的应用，为此，美国数学会从1963起出版了以《斐波纳契数列季刊》为名的一份数学杂志，用于
+化学等领域，斐波纳契数列都有直接的应用，为此，美国数学会从1963起出版了以《斐波那契数列季刊》为名的一份数学杂志，用于
 专门刊载这方面的研究成果。
 
     其实就是从第三项开始，每项的值等于前两项的和。
@@ -11,14 +11,14 @@ Python3实现斐波拉契数列打印：
 
 方法一：
 def fib(n): # 返回到 n 的斐波那契数列
-    result = []
+    Fibonacci = []
     a, b = 0, 1
     while b < n:
-        result.append(b)
+        Fibonacci.append(b)
         a, b = b, a+b
-    return result
+    return Fibonacci
 
-x = int(input("Input number a Fibonacci sequence last number:"))
+x=int(input("Input number A:"))
 print(fib(x))
 print(sum(fib(x)))
 
